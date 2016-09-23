@@ -69,8 +69,9 @@
     }
     
     // Yellow
-    self.mySAVideoRangeSlider.topBorder.backgroundColor = [UIColor colorWithRed: 0.996 green: 0.951 blue: 0.502 alpha: 1];
-    self.mySAVideoRangeSlider.bottomBorder.backgroundColor = [UIColor colorWithRed: 0.992 green: 0.902 blue: 0.004 alpha: 1];
+    
+    self.mySAVideoRangeSlider.topBorder.backgroundColor = [UIColor colorWithRed: 0.012 green: 0.804 blue: 0.663 alpha:1];
+    self.mySAVideoRangeSlider.bottomBorder.backgroundColor = [UIColor colorWithRed: 0.012 green: 0.804 blue: 0.663 alpha:1];
     
     // Purple
     //self.mySAVideoRangeSlider.topBorder.backgroundColor = [UIColor colorWithRed: 0.768 green: 0.665 blue: 0.853 alpha: 1];

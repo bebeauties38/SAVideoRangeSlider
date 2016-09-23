@@ -64,12 +64,14 @@
         
         
         _topBorder = [[UIView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, SLIDER_BORDERS_SIZE)];
-        _topBorder.backgroundColor = [UIColor colorWithRed: 0.996 green: 0.951 blue: 0.502 alpha: 1];
+//        _topBorder.backgroundColor = [UIColor colorWithRed: 0.996 green: 0.951 blue: 0.502 alpha: 1];
+        _topBorder.backgroundColor = [UIColor colorWithRed:3 / 255 green:202 / 255 blue:169 / 255 alpha:1];
         [self addSubview:_topBorder];
         
         
         _bottomBorder = [[UIView alloc] initWithFrame:CGRectMake(0, frame.size.height-SLIDER_BORDERS_SIZE, frame.size.width, SLIDER_BORDERS_SIZE)];
-        _bottomBorder.backgroundColor = [UIColor colorWithRed: 0.992 green: 0.902 blue: 0.004 alpha: 1];
+//        _bottomBorder.backgroundColor = [UIColor colorWithRed: 0.992 green: 0.902 blue: 0.004 alpha: 1];
+        _bottomBorder.backgroundColor = [UIColor colorWithRed:3 / 255 green:202 / 255 blue:169 / 255 alpha:1];
         [self addSubview:_bottomBorder];
         
         
